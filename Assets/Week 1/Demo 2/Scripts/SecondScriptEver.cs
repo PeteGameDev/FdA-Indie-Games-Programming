@@ -18,5 +18,9 @@ public class SecondScriptEver : MonoBehaviour
         transform.Rotate(Vector3.right * speed * Time.deltaTime);
         //Rotate the object around the Y axis
         transform.Rotate(Vector3.up * speed * Time.deltaTime);
+
+        //Make this into a function and call it here
     }
+
+    //make the Rotation function here
 }
