@@ -7,7 +7,7 @@ public class ForExample : MonoBehaviour
     public GameObject spawningObject;
     public Transform spawnPoint;
 
-    int numberOfBalls = 1;
+    int numberOfBalls = 5;
 
     void Start()
     {

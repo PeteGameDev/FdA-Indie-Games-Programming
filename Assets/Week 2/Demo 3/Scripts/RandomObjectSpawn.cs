@@ -14,7 +14,7 @@ public class RandomObjectSpawn : MonoBehaviour
 
     
     void Update() {
-        if(Input.GetKeyDown(KeyCode.Space))
+        if(Input.GetKeyDown(KeyCode.PageUp))
         {
             Debug.Log("Spawn Object");
             GameObject clone = Instantiate(spawningObject[Random.Range(0, spawningObject.Length)], spawnPoint);

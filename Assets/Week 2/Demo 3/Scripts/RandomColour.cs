@@ -8,7 +8,7 @@ public class RandomColour : MonoBehaviour
     public GameObject colorObject;
 
     void Update(){
-        if(Input.GetKeyDown(KeyCode.Return)){
+        if(Input.GetKeyDown(KeyCode.PageDown)){
         colorObject.GetComponent<Renderer>().material.color = Colors[Random.Range(0, Colors.Length)];
         }
 

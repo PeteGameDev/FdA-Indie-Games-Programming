@@ -14,7 +14,7 @@ public class ObjectSpawn : MonoBehaviour
 
     
     void Update() {
-        if(Input.GetKeyDown(KeyCode.Space))
+        if(Input.GetKeyDown(KeyCode.F5))
         {
             Debug.Log("Spawn Object");
             GameObject clone = Instantiate(spawningObject, spawnPoint);
