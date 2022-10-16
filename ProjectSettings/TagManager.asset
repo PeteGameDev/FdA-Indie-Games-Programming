@@ -6,6 +6,10 @@ TagManager:
   tags:
   - Kill Trigger
   - Spawned Object
+  - TreeTop
+  - TreeTrunk
+  - SpawnPoints
+  - Tree
   layers:
   - Default
   - TransparentFX
