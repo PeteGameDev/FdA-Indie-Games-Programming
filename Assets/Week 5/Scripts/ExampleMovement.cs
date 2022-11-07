@@ -25,10 +25,12 @@ public class ExampleMovement : MonoBehaviour
         playerInputActions.Player.Movement.performed += Move;
     }
 
+    
     private void Update() {
         moveDirection = playerInputActions.Player.Movement.ReadValue<Vector2>();
         controller.Move(new Vector3(moveDirection.x, 0, moveDirection.y) * moveSpeed * Time.deltaTime);
     }
+    
 
     public void Move(InputAction.CallbackContext context){
         if(context.performed){
