@@ -25,11 +25,11 @@ public class TestScript : MonoBehaviour
 
     void playAnimation()
     {
-        transform.DOMove(new Vector3(-5, 1, 0), 0.5f).SetEase(Ease.OutElastic);
+        transform.DOMove(new Vector3(0, 2, 0), 1f).SetLoops(-1, LoopType.Yoyo);
         transform.DORotate(new Vector3(0, 360, 0), 2f, RotateMode.FastBeyond360).SetLoops(-1, LoopType.Restart).SetEase(Ease.Linear);
-        transform.DOScale(new Vector3(3, 3, 3), 0.5f).SetDelay(0.5f).SetLoops(-1, LoopType.Yoyo);
+        transform.DOScale(new Vector3(3, 3, 3), 0.5f).SetDelay(0.5f);//.SetLoops(-1, LoopType.Yoyo);
 
-        myMaterial.DOColor(Color.green, 2f);
+        //myMaterial.DOColor(Color.green, 2f);
         
 
 
