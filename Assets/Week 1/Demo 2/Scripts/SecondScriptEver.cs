@@ -22,5 +22,9 @@ public class SecondScriptEver : MonoBehaviour
         //Make this into a function and call it here
     }
 
+    void LewisBeecherSmells(){
+
+    }
+
     //make the Rotation function here
 }

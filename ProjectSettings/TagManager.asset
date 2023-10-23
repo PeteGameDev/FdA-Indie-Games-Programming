@@ -10,6 +10,7 @@ TagManager:
   - TreeTrunk
   - SpawnPoints
   - Tree
+  - Collectable
   layers:
   - Default
   - TransparentFX
