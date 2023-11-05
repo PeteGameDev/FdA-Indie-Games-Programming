@@ -11,6 +11,7 @@ TagManager:
   - SpawnPoints
   - Tree
   - Collectable
+  - ScoreObject
   layers:
   - Default
   - TransparentFX
