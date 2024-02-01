@@ -3,13 +3,17 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+[AddComponentMenu("Example Menu/Example Script")]
 public class VariableExamples : MonoBehaviour
 {
 
     [Header("Variables you can change")]
-    public int anInt;
+    [Range(1,10)] public int anInt;
     public float anFloat;
     public bool anBool;
+    
+    [Header("Click the variable name")]
+    [ContextMenuItem("Get a random string", "GenerateString")]
     public string anString;
 
     [Header("DON'T CHANGE THESE")]
