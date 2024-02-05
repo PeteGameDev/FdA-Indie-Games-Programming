@@ -29,13 +29,14 @@ public class VariableExamples : MonoBehaviour
         cubeRenderer = cube.GetComponent<Renderer>();
     }
 
-    // Update is called once per frame
+    
     void Update()
     {
         //Print variable results to screen
         intResult.text = anInt.ToString();
         floatResult.text = anFloat.ToString();
         stringResult.text = anString;
+        
 
         //Using variables to create magic
         scaleChange = new Vector3(anInt, anInt, anInt);
